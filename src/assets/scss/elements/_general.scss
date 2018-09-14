@@ -1,0 +1,35 @@
+html {
+    box-sizing: border-box;
+    font-size: $base-font-size;
+}
+
+body {
+    background: $body-background;
+    font-family: $body-font-family;
+    font-weight: $global-weight-normal;
+    line-height: $global-lineheight;
+    color: $body-font-color;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+img {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+    -ms-interpolation-mode: bicubic;
+}
+
+:focus {
+    outline: 2px solid $primary-colour;
+}
+::selection {
+    background: $primary-colour;
+    color: #ffffff;
+}
+::-moz-selection {
+    background: $primary-colour;
+    color: #ffffff;
+}

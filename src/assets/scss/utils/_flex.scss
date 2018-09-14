@@ -1,0 +1,65 @@
+.u-flex {
+    display: flex;
+}
+
+@each $dir in row row-reverse column column-reverse {
+    .u-flex-direction-#{$dir} {
+        flex-direction: #{$dir};
+    }
+}
+
+@each $wrap in nowrap wrap wrap-reverse {
+    .u-flex-#{$wrap} {
+        flex-wrap: #{$wrap};
+    }
+}
+
+$justify: (
+    'left': flex-start, 
+    'right': flex-end, 
+    'center': center,  
+    'justify': space-between, 
+    'spaced': space-around, 
+    'evenly': space-evenly
+);
+
+@each $class, $value in $justify {
+    .u-align-#{$class} {
+        justify-content: #{$value};
+    }
+}
+
+$align: (
+    'top': flex-start, 
+    'bottom': flex-end, 
+    'middle': center,  
+    'baseline': baseline, 
+    'stretch': stretch, 
+);
+
+@each $class, $value in $align {
+    .u-align-#{$class} {
+        align-items: #{$value};
+    }
+}
+
+@each $class, $value in $align {
+    .u-align-self-#{$class} {
+        align-self: #{$value};
+    }
+}
+
+@for $i from 0 through 12 {
+    .u-order-#{$i} {
+        order: $i;
+    }
+}
+@each $size, $width in $breakpoints {
+    @include breakpoint($size) {
+        @for $i from 0 through 12 {
+            .u-order-#{$i}\@#{$size} {
+                order: $i;
+            }
+        }
+    }
+}

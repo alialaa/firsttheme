@@ -1,0 +1,13 @@
+.c-page {
+    background-color: #ffffff;
+    border: 1px solid $grey;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.05);
+    padding: rem-calc(20);
+    overflow: hidden;
+    &__header {
+        margin-bottom: rem-calc(20);
+    }
+    &__title {
+        font-weight: 600;
+    }
+}

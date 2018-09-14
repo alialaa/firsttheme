@@ -1,0 +1,41 @@
+.u-screen-reader-text {
+    position:absolute; 
+    left:-10000px; 
+    top:auto; 
+    width:1px; 
+    height:1px; 
+    overflow:hidden;
+}
+
+.u-skip-link {
+    position:absolute; 
+    left:-10000px; 
+    top:auto; 
+    width:1px; 
+    height:1px; 
+    overflow:hidden;
+    &:focus {
+        position:absolute; 
+        left: 20px;
+        top: 20px;
+        background: #ffffff;
+        padding: 10px 15px;
+        width:auto; 
+        height:auto; 
+    }
+}
+
+.u-responsive-video {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+    iframe {
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}

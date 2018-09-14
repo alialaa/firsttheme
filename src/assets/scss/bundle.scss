@@ -1,0 +1,37 @@
+@import './settings/global';
+@import './settings/colours';
+@import './settings/break-points';
+@import './settings/typography';
+
+@import './tools/units';
+@import './tools/breakpoint';
+
+@import './generic/normalize';
+@import './generic/box-sizing';
+
+@import './elements/general';
+@import './elements/typography';
+@import './elements/form';
+@import './elements/print';
+$fa-font-path: '../../../node_modules/@fortawesome/fontawesome-free/webfonts';
+@import '../../../node_modules/@fortawesome/fontawesome-free/scss/fa-solid';
+@import '../../../node_modules/@fortawesome/fontawesome-free/scss/fa-regular';
+@import '../../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome';
+
+@import '../../../node_modules/slick-carousel/slick/slick.scss';
+
+@import './objects/wp';
+@import './objects/grid';
+
+@import './components/post';
+@import './components/page';
+@import './components/widget';
+@import './components/footer';
+@import './components/header';
+@import './components/comment';
+@import './components/search-form';
+@import './components/nav-links';
+
+@import './utils/helpers';
+@import './utils/flex';
+@import './utils/margins';

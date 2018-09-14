@@ -1,0 +1,82 @@
+.navigation.pagination .nav-links {
+    margin-top: rem-calc(40);
+    text-align: right;
+    span:not(.dots):not(.current), a {
+        padding: rem-calc(7 15);
+        border-bottom: none;
+        background-color: #e0e0e0;
+        color: $dark-grey;
+        display: inline-block;
+        background-color: #fafafa;
+        border: 2px solid #e2e2e2;
+    }
+    a:hover {
+        background-color: $primary-colour;
+        color: #fff;
+    }
+    .dots, .current {
+        padding: rem-calc(7 7);
+    }
+}
+
+.c-post-navigation {
+    $p: &;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.05);
+    &__links {
+        display: flex;
+    }
+    &__post {
+        flex: 1;
+        max-width: 50%;
+        &--next {
+            #{$p}__thumbnail {
+                order: 1;
+                margin-left: rem-calc(15);
+            }
+            #{$p}__link {
+                justify-content: flex-end;
+                border-left: none !important;
+            }
+            #{$p}__content {
+                text-align: right;
+            }
+        }
+        &--prev {
+            #{$p}__thumbnail {
+                margin-right: rem-calc(15);
+            }
+            #{$p}__link {
+                justify-content: flex-start;
+            }
+        }
+    }
+    &__subtitle {
+        display: block;
+        color: $dark-grey;
+        font-size: rem-calc(14);
+    }
+    &__title {
+        display: block;
+        color: #000000;
+        font-weight: 600;
+    }
+    &__content {
+        flex: 1;
+        margin: rem-calc(10 0);
+    }
+    &__link {
+        display: flex;
+        height: 100%;
+        background-color: #ffffff;
+        border: 1px solid $grey !important;
+        padding: rem-calc(20);
+        overflow: hidden;
+    }
+    &__thumbnail {
+        width: 100px;
+        img {
+            height: 100px;
+            width: 100px;
+        }
+    }
+}

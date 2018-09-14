@@ -1,0 +1,32 @@
+$header-font-family: $body-font-family !default;
+$header-font-weight: $global-weight-normal !default;
+$header-font-style: normal !default;
+$font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace !default;
+$font-family-serif: 'serif' !default;
+$header-color: inherit !default;
+$header-lineheight: 1.4 !default;
+$header-margin-bottom: 0.5rem !default;
+$small-font-size: 80% !default;
+
+$header-small-font-color: #333333 !default;
+$paragraph-lineheight: 1.6 !default;
+$paragraph-margin-bottom: 1rem !default;
+
+$header-styles: (
+    small: (
+        'h1': ('font-size': 24),
+        'h2': ('font-size': 20),
+        'h3': ('font-size': 19),
+        'h4': ('font-size': 18),
+        'h5': ('font-size': 17),
+        'h6': ('font-size': 16),
+    ),
+    medium: (
+        'h1': ('font-size': 48),
+        'h2': ('font-size': 40),
+        'h3': ('font-size': 31),
+        'h4': ('font-size': 25),
+        'h5': ('font-size': 20),
+        'h6': ('font-size': 16),
+    ),
+) !default;

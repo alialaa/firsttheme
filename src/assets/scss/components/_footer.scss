@@ -1,0 +1,21 @@
+.c-footer {
+    background-color: #222222;
+    padding: rem-calc(40) 0;
+    color: #ffffff;
+    &--light {
+        background-color: #ffffff;
+        color: #222222;
+    }
+}
+.c-site-info {
+    background-color: #2b2b2b;
+    padding: rem-calc(15) 0;
+    text-align: center;
+    color: #ffffff;
+    font-size: rem-calc(15px);
+    font-weight: 300;
+    &--light {
+        background-color: #e6e6e6;
+        color: #2b2b2b;
+    }
+}

@@ -1,0 +1,36 @@
+$columns: 12;
+$gutter: 20;
+
+.o-container {
+    max-width: rem-calc($global-width);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: rem-calc($gutter/2);
+    padding-right: rem-calc($gutter/2);
+}
+.o-row {
+    display: flex;
+    margin-right: - rem-calc($gutter/2);
+    margin-left: - rem-calc($gutter/2);
+    flex-wrap: wrap;
+    &__column {
+        width: calc(100% - #{rem-calc($gutter)});
+        flex: 0 0 auto;
+        margin-left: rem-calc($gutter/2);
+        margin-right: rem-calc($gutter/2);
+    }
+    @for $i from 1 through $columns {
+        &__column--span-#{$i} {
+            width: calc(#{$i/$columns*100 + '%'} - #{rem-calc($gutter)});
+        }
+    }
+    @each $size, $width in $breakpoints {
+        @include breakpoint($size) {
+            @for $i from 1 through $columns {
+                &__column--span-#{$i}\@#{$size} {
+                    width: calc(#{$i/$columns*100 + '%'} - #{rem-calc($gutter)});
+                }
+            }
+        }
+    }
+}

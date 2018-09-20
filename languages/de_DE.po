@@ -1,0 +1,289 @@
+# Copyright (C) 2018 firsttheme
+# This file is distributed under the same license as the firsttheme package.
+msgid ""
+msgstr ""
+"Project-Id-Version: firsttheme\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.6\n"
+"Last-Translator: \n"
+"Language: de_DE\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:6
+msgid "Nothing found here, maybe you can try to search?"
+msgstr ""
+
+#: archive-_themename_portfolio.php:12,
+#: taxonomy-_themename_project_type.php:12, taxonomy-_themename_skills.php:12,
+#: template-parts/post/content-none.php:1
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#. translators: %s is the number of posts
+#: author.php:19, template-parts/single/author.php:27
+msgid "%s post"
+msgid_plural "%s posts"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1 is number of comments and 2 is post title
+#: comments.php:14
+msgid "%1$s Reply to \"%2$s\""
+msgid_plural "%1$s Replies to \"%2$s\""
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:41
+msgid "Comments are closed for this post"
+msgstr ""
+
+#: header.php:10
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:26
+msgid "Main Navigation"
+msgstr ""
+
+#: search.php:8
+msgid "Search results for: %s"
+msgstr ""
+
+#: searchform.php:3
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:4
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: searchform.php:6
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: lib/comment-callback.php:9
+msgid "Edit Comment"
+msgstr ""
+
+#: lib/comment-callback.php:20
+msgid "%s ago"
+msgstr ""
+
+#: lib/comment-callback.php:26
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: lib/customize.php:19
+msgid "Single Blog Options"
+msgstr ""
+
+#: lib/customize.php:20
+msgid "You can change single blog options from here."
+msgstr ""
+
+#: lib/customize.php:32
+msgid "Show Author Info"
+msgstr ""
+
+#: lib/customize.php:49
+msgid "General Options"
+msgstr ""
+
+#: lib/customize.php:50
+msgid "You can change general options from here."
+msgstr ""
+
+#: lib/customize.php:60
+msgid "Accent Color"
+msgstr ""
+
+#: lib/customize.php:72
+msgid "Portfolio Slug"
+msgstr ""
+
+#: lib/customize.php:73
+msgid "Will appear in the archive url"
+msgstr ""
+
+#: lib/customize.php:90
+msgid "Footer Options"
+msgstr ""
+
+#: lib/customize.php:91
+msgid "You can change footer options from here."
+msgstr ""
+
+#: lib/customize.php:102
+msgid "Site Info"
+msgstr ""
+
+#: lib/customize.php:114
+msgid "Footer Background"
+msgstr ""
+
+#: lib/customize.php:116
+msgid "Light"
+msgstr ""
+
+#: lib/customize.php:117
+msgid "Dark"
+msgstr ""
+
+#: lib/customize.php:131
+msgid "Footer Layout"
+msgstr ""
+
+#: lib/customize.php:141
+msgid "Footer layout is invalid"
+msgstr ""
+
+#. translators: %s: Post Date
+#: lib/helpers.php:7
+msgid "Posted on %s"
+msgstr ""
+
+#. translators: %s: Post Author
+#: lib/helpers.php:12
+msgid " By %s"
+msgstr ""
+
+#: lib/helpers.php:23
+msgid "Read More <span class=\"u-screen-reader-text\">About %s</span>"
+msgstr "Lesen Sie mehr <span class=\"u-screen-reader-text\">über %s</span>"
+
+#: lib/helpers.php:42
+msgid "Delete Post"
+msgstr ""
+
+#: lib/metaboxes.php:21
+msgid "Post Subtitle"
+msgstr ""
+
+#: lib/metaboxes.php:26
+msgid "Layout"
+msgstr ""
+
+#: lib/metaboxes.php:28
+msgid "Full Width"
+msgstr ""
+
+#: lib/metaboxes.php:29
+msgid "Post With Sidebar"
+msgstr ""
+
+#: lib/most-recent-widget.php:16
+msgid "Recent Posts"
+msgstr ""
+
+#: lib/most-recent-widget.php:18
+msgid "some description"
+msgstr ""
+
+#: lib/most-recent-widget.php:51
+msgid "Title:"
+msgstr ""
+
+#: lib/most-recent-widget.php:55
+msgid "Number Of Posts:"
+msgstr ""
+
+#: lib/most-recent-widget.php:60
+msgid "Include Date?"
+msgstr ""
+
+#: lib/most-recent-widget.php:63
+msgid "Sort By:"
+msgstr ""
+
+#: lib/most-recent-widget.php:65
+msgid "Most Recent"
+msgstr ""
+
+#: lib/most-recent-widget.php:66
+msgid "Random"
+msgstr ""
+
+#: lib/most-recent-widget.php:67
+msgid "Number Of Comments"
+msgstr ""
+
+#: lib/navigation.php:5
+msgid "Main Menu"
+msgstr ""
+
+#: lib/navigation.php:6
+msgid "Footer Menu"
+msgstr ""
+
+#: lib/navigation.php:24
+msgid "Show %s submenu"
+msgstr ""
+
+#: lib/navigation.php:25
+msgid "Hide %s submenu"
+msgstr ""
+
+#: lib/sidebars.php:6
+msgid "Primary Sidebar"
+msgstr ""
+
+#: lib/sidebars.php:7
+msgid "This sidebar appears in the blog posts page."
+msgstr ""
+
+#: lib/sidebars.php:29
+msgid "Footer Widgets Column %s"
+msgstr ""
+
+#: lib/sidebars.php:30
+msgid "Footer widgets"
+msgstr ""
+
+#: page-templates/page-blank.php:3,
+#: packaged/firsttheme/page-templates/page-blank.php:3
+msgid "Blank"
+msgstr ""
+
+#: page-templates/page-full.php:3,
+#: packaged/firsttheme/page-templates/page-full.php:3
+msgid "Full Width Page"
+msgstr ""
+
+#. translators: used betweeen categories
+#: template-parts/post/footer.php:6
+msgid ", "
+msgstr ""
+
+#. translators: %s is the categories list
+#: template-parts/post/footer.php:8
+msgid "Posted in %s"
+msgstr ""
+
+#: template-parts/single/author.php:2
+msgid "About The Author"
+msgstr ""
+
+#: template-parts/single/navigation.php:8
+msgid "Post Navigation"
+msgstr ""
+
+#: template-parts/single/navigation.php:20
+msgid "Previous Post"
+msgstr ""
+
+#: template-parts/single/navigation.php:39
+msgid "Next Post"
+msgstr ""

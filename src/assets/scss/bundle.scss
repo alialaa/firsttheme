@@ -14,8 +14,8 @@
 @import './elements/form';
 @import './elements/print';
 $fa-font-path: '../../../node_modules/@fortawesome/fontawesome-free/webfonts';
-@import '../../../node_modules/@fortawesome/fontawesome-free/scss/solid';
-@import '../../../node_modules/@fortawesome/fontawesome-free/scss/regular';
+@import '../../../node_modules/@fortawesome/fontawesome-free/scss/fa-solid.scss';
+@import '../../../node_modules/@fortawesome/fontawesome-free/scss/fa-regular.scss';
 @import '../../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome';
 
 @import '../../../node_modules/slick-carousel/slick/slick.scss';

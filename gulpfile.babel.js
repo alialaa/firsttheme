@@ -169,13 +169,13 @@ export const scripts = () => {
     .pipe(
       webpack({
         module: {
-          loaders: [
+          rules: [
             {
               test: /\.js$/,
               use: {
                 loader: "babel-loader",
                 options: {
-                  presets: ["babel-preset-env"]
+                  presets: ["@babel/preset-env"]
                 }
               }
             }
@@ -187,10 +187,10 @@ export const scripts = () => {
         externals: {
           jquery: "jQuery"
         },
-        devtool: !PRODUCTION ? "inline-source-map" : false
+        devtool: !PRODUCTION ? "inline-source-map" : false,
+        mode: PRODUCTION ? 'production' : 'development'
       })
     )
-    .pipe(gulpif(PRODUCTION, uglify()))
     .pipe(gulp.dest(paths.scrips.dest));
 };
 

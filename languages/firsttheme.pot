@@ -1,4 +1,4 @@
-# Copyright (C) 2018 firsttheme
+# Copyright (C) 2020 firsttheme
 # This file is distributed under the same license as the firsttheme package.
 msgid ""
 msgstr ""
@@ -244,11 +244,11 @@ msgstr ""
 msgid "Footer widgets"
 msgstr ""
 
-#: page-templates/page-blank.php:3, packaged/firsttheme/page-templates/page-blank.php:3
+#: page-templates/page-blank.php:3
 msgid "Blank"
 msgstr ""
 
-#: page-templates/page-full.php:3, packaged/firsttheme/page-templates/page-full.php:3
+#: page-templates/page-full.php:3
 msgid "Full Width Page"
 msgstr ""
 

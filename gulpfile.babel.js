@@ -1,13 +1,13 @@
 import gulp from "gulp";
 import yargs from "yargs";
-import sass from "gulp-sass";
+import gulpSass from "gulp-sass";
+import dartSass from "sass";
 import cleanCSS from "gulp-clean-css";
 import gulpif from "gulp-if";
 import sourcemaps from "gulp-sourcemaps";
 import imagemin from "gulp-imagemin";
 import del from "del";
 import webpack from "webpack-stream";
-import uglify from "gulp-uglify";
 import named from "vinyl-named";
 import browserSync from "browser-sync";
 import zip from "gulp-zip";
@@ -15,6 +15,8 @@ import replace from "gulp-replace";
 import info from "./package.json";
 import rename from "gulp-rename";
 import wpPot from "gulp-wp-pot";
+
+const sass = gulpSass(dartSass);
 
 const server = browserSync.create();
 const PRODUCTION = yargs.argv.prod;
